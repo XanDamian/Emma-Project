@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Course Registration</title>
+    <link rel="stylesheet" href="course.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>Course Registration</h2>
+
+      <form>
+        <label for="department">Department</label>
+        <select id="department" name="department">
+          <option value="">Select Department</option>
+          <option value="Computer Science">Computer Science</option>
+          <option value="Mass Communication">Mass Communication</option>
+          <option value="Business Administration">
+            Business Administration
+          </option>
+          <option value="Physics">Physics</option>
+        </select>
+
+        <label for="level">Level</label>
+        <select id="level" name="level">
+          <option value="">Select Level</option>
+          <option value="100">100 Level</option>
+          <option value="200">200 Level</option>
+          <option value="300">300 Level</option>
+          <option value="400">400 Level</option>
+        </select>
+
+        <label for="course">Course Name</label>
+        <input
+          type="text"
+          id="course"
+          name="course"
+          placeholder="e.g. Data Structures"
+        />
+
+        <label for="course">Course Code</label>
+        <input
+          type="text"
+          id="course"
+          name="course"
+          placeholder="e.g. CSC 201"
+        />
+
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>
